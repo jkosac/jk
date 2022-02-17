@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.hero {
+  height: 100vh;
+  background-image: url("./images/Playa.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.fl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fl-centerh {
+  justify-content: center;
+  align-items: center;
+}
+
+.flcenterv {
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 4em;
+  border: 1px solid white;
+  width: 600px;
+  padding: 50px;
+}
